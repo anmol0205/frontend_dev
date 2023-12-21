@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+    .nav{
+        display: grid ;
+        grid-template-columns: repeat(5, auto);
+        background-color: black;
+        border-radius: 5px;
+        position: sticky;
+    }
+    .nav a img{
+        width:120px;
+        height: 80px;
+    }
+    .nav a{
+        text-decoration: none;
+        color: gold;
+        
+    }
+    .nav a p{margin-top: 28px;}
+    .nav a:hover{
+        color: white;
+    }
+    .middle{
+        display: grid;
+        grid-template-columns: 6fr 1fr 17fr;
+        
+    }
+    .right{
+        display: grid;
+        grid-template-columns: repeat(3 , auto);
+        background-image: url("https://wallpapercave.com/wp/nHZ7xBj.jpg");
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(42, 37, 37);
+    }
+    .right img{
+        width: 280px;
+        height: 280px;
+        box-shadow: aqua 2px 2px;
+    }
+    .right a{
+        text-decoration: none;
+        color: white;
+    }
+    .right a p{
+        margin-left: 88px;
+        padding-top: 40px;
+    }
+    .left{
+        margin-left: 30px;
+        
+        
+        
+        justify-content: center;
+    }
+    .top {
+        color: white;
+        margin-left: 20px;
+        padding-left: 55px;
+        font-size: 28px;
+
+    }
+    .slot{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding-left: 55px;
+        justify-content: center;
+        background-color: rgba(24, 3, 107, 0.304);
+    }
+    .slot img{
+        display: inline-block;
+        width: 90px;
+        height: 80px;
+    }
+    .slot p{
+        display: inline-block;
+        position: absolute;
+        color: white;
+        
+        margin-bottom: 20px;
+        
+    }
+    .slot a {
+        text-decoration: none;
+    }
+    .next{
+        border: 2px solid red;
+        margin-top: 150px;
+        background-image: url(https://th.bing.com/th/id/OIP.fymcuKdpTcGa94x7ORYNsgHaEK?pid=ImgDet&rs=1);
+        background-repeat: no-repeat;
+        background-size: 2000px 1000px;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+        
+    }
+    .content{
+        display: grid;
+        grid-template-rows: 1fr 1fr 3fr;
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 180px;
+        margin-right: 180px;
+        background-color: black;
+    }
+    .box{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 6fr;
+    }
+    .image a img{
+        width: 300px;
+        height: 300px;
+    }
+    .head{
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .ribbon{
+        border: 2px solid gold;
+    }
+   
+  
+    
+</style>
+<body>
+    <div class="nav">
+        <a href=""><img src="https://i.gadgets360cdn.com/large/crunchyroll_logo_crunchyroll_1607577688260.jpg" alt=""></a>
+        <a href=""><p>HOME</p></a>
+        <a href=""><p>ABOUT</p></a>
+        <a href=""><p>MANGA</p></a>
+        <a href=""><p>CONTACT US</p></a>
+    </div>
+    <br>
+    <div class="ribbon"></div>
+    <br>
+    <div class="middle">
+        <div class="left">
+            <div class="top"><p>TOP OF WEEKS</p></div>
+            <div class="slot"><a href=""><img src="one piece-modified.png" alt=""><p>ONE PIECE</p></a></div>
+            <div class="slot"><a href=""><img src="naruto2-modified.png" alt=""><p>NARUTO</p></a></div>
+            <div class="slot"><a href=""><img src="erased-modified.png" alt=""><p>ERASED</p></a></div>
+            <div class="slot"><a href=""><img src="berserk-modified.png" alt=""></a><p>BERSERK</p></div>
+            <div class="slot"><a href=""><img src="stiens gate-modified.png" alt=""><p>STEINS GATE</p></a></div>
+        </div>
+        <div class="empty">
+
+        </div>
+        <div class="right">
+            <a href="">
+                <p>NARUTO</p><br>
+                <img src="https://picfiles.alphacoders.com/729/thumb-1920-72974.jpg" alt="">
+            </a>
+            <a href="">
+                <p>BLEACH</p><br>
+                <img src="https://img1.ak.crunchyroll.com/i/spire4/59e006339ab7940509209bb40f6584961659800384_main.jpg" alt="">
+            </a>
+            <a href="">
+                <p>JUJUTSU KAISEN</p><br>
+                <img src="https://www.themoviedb.org/t/p/original/sOvq6TtAIm08JKaU7afzOenDSTF.jpg" alt="">
+            </a>
+            <a href="">
+                <p>TOKYO GHOUL</p><br>
+                <img src="https://picfiles.alphacoders.com/378/378155.jpg" alt=""></a>
+            <a href="">
+                <p>MONSTER</p><br>
+                <img src="https://picfiles.alphacoders.com/355/355715.jpg" alt=""></a>
+            <a href="">
+                <p>MADE IN ABYSS</p><br>
+                <img src="https://th.bing.com/th/id/OIP.vsYvIrDMxzDSVQofsasf8gHaKj?pid=ImgDet&rs=1" alt=""></a>
+        </div>
+    </div>
+    <div class="next">
+        <div class="content">
+            <div class="head">
+                <p>TODAY'S PICK</p>
+                <div class="ribbon"></div>
+                
+            </div>
+            <div class="done"></div>
+            <div class="box">
+                <div class="blank"></div>
+                <div class="image">
+                    <a href=""><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/gHJMoGA2pbpdQin8UeTXCWk1IQs.jpg" alt=""></a>
+                </div>
+                <div class="blank"></div>
+                <div class="pargraph">
+                    <p id="top">Mushoku Tensei</p>
+                    <p id="bottom">Mushoku Tensei: Jobless Reincarnation (Japanese: 無職転生 〜異世界行ったら本気だす〜, Hepburn: Mushoku Tensei: Isekai Ittara Honki Dasu, lit. "Jobless Reincarnation: Giving His Best When Transferred to Another World") is a Japanese light novel series by Rifujin na Magonote[a] and illustrated by Shirotaka. The series is about a jobless and hopeless man who dies after having a sad and withdrawn life and reincarnates in a fantasy world while keeping his memories, determined to enjoy his new life without regrets under the name Rudeus Greyrat.</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
